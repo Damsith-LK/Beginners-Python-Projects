@@ -15,7 +15,7 @@ class Catcher(Turtle):
         self.goto(0, -280)
 
     def go_left(self):
-        self.setx(self.xcor() - 10)
+        self.setx(self.xcor() - 30)
 
     def go_right(self):
-        self.setx(self.xcor() + 10)
+        self.setx(self.xcor() + 30)
